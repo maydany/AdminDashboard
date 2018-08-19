@@ -162,10 +162,10 @@
     "buttons": "Botões",
     "charts": "Gráficos",
     "colorPickers": "Colhedores de Cor",
-    "dashboard": "Painel principal",
+    "dashboard": "대쉬보드",
     "extra": "Extra",
     "formElements": "Elementos de Formulários",
-    "forms": "Formulários",
+    "forms": "매출현황",
     "formWizards": "Formulários Wizards",
     "mediumEditor": "Editor Medium",
     "grid": "Grid",
@@ -178,16 +178,16 @@
     "notifications": "Notificações",
     "progressBars": "Barra de progresso",
     "signUp": "Cadastrar-se",
-    "statistics": "Estatística",
-    "tables": "Tabelas",
+    "statistics": "공지사항",
+    "tables": "인사관리",
     "typography": "Tipografia",
     "uiElements": "Elementos UI",
     "treeView": "Árvore de visualização",
     "dateTimePickers": "Selecionar Data e Hora"
   },
   "messages": {
-    "all": "Ver todas as menssagens",
-    "new": "Nova menssagem de {name}"
+    "all": "모든 메세지 보러가기",
+    "new": "{name}의 메세지"
   },
   "modal": {
     "cancel": "CANCELAR",

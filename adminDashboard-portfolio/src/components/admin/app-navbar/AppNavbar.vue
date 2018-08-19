@@ -6,7 +6,6 @@
       {{$t('navbar.messageUs')}}
     </span>
     <message-dropdown/>
-    <notification-dropdown/>
     <language-dropdown/>
     <profile-dropdown>
       <img src="https://avatars3.githubusercontent.com/u/38318319?s=460&v=4"/>
