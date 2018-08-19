@@ -9,7 +9,7 @@
     "password": "Senha",
     "signUp": "Cadastrar-se",
     "termsOfUse": "Termos de uso.",
-    "welcome": "Bem vindo!"
+    "welcome": "임성훈의 포트폴리오에 오신걸 환영합니다!"
   },
   "breadcrumbs": {
     "home": "홈페이지"
@@ -27,19 +27,22 @@
     "small": "PEQUENO"
   },
   "charts": {
-    "horizontalBarChart": "Barra de Gráfico Horizontal",
-    "verticalBarChart": "Barra de Gráfico Vertical",
+    "horizontalBarChart": "마케팅 대비 월매출",
+    "verticalBarChart": "지역별 월매출",
     "lineChart": "Gráfico de Linha",
-    "pieChart": "Gráfico Pizza",
-    "donutChart": "Gráfico Rosca",
+    "pieChart": "루미나 시장 점유율",
+    "donutChart": "마케팅비 사용비율",
     "bubbleChart": "Gráfico Bolhas"
   },
   "dashboard": {
     "success": "SUCESSO",
     "successMessage": "Você leu com sucesso esta mensagem importante de alerta.",
-    "elements": "Elementos",
-    "teamMembers": "Membros da Equipe",
-    "versions": "Versões"
+    "elements": "이번 주 판매수량",
+    "teamMembers": "이번 주 루미니 체험자",
+    "versions": "이번 주 반품수량",
+    "return":"이번 주 반품률",
+    "social":"룰루랩 뉴스"
+
   },
   "notificationsPage": {
     "alerts": {
@@ -178,8 +181,8 @@
     "notifications": "Notificações",
     "progressBars": "Barra de progresso",
     "signUp": "Cadastrar-se",
-    "statistics": "공지사항",
-    "tables": "인사관리",
+    "statistics": "매장위치",
+    "tables": "실적관리",
     "typography": "Tipografia",
     "uiElements": "Elementos UI",
     "treeView": "Árvore de visualização",
@@ -225,13 +228,15 @@
   },
   "tables": {
     "basic": "Tabela Básico",
-    "styled": "Cores, Icones, Rótulos",
+    "styled": "실적 관리",
     "advanced": "Pesquisar & Paginação",
     "headings": {
-      "city": "Cidade",
+      "city": "지역",
       "email": "Email",
-      "name": "Nome",
-      "score": "Contagem"
+      "name": "이름",
+      "score": "실적",
+      "status": "상태"
+
     },
     "dataTable": {
       "noDataAvailable": "No Data Available"
@@ -239,8 +244,8 @@
   },
   "user": {
     "language": "Trocar Linguagem",
-    "logout": "Sair",
-    "profile": "Meu Perfil"
+    "logout": "로그아웃",
+    "profile": "프로필 보기"
   },
   "treeView": {
     "basic": "Básico",

@@ -10,15 +10,6 @@
         </span>
       </sidebar-link>
         <sidebar-link
-          :to="{ name: 'form-elements' }">
-          <span slot="title">
-            <span
-              class="sidebar-menu-item-icon vuestic-icon vuestic-icon-comments"> </span>
-            <span>{{ $t('menu.statistics') }}</span>
-          </span>
-        </sidebar-link>
-
-        <sidebar-link
           :to="{ name: 'charts' }">
         <span slot="title">
           <span
@@ -32,6 +23,14 @@
           <span
             class="sidebar-menu-item-icon vuestic-icon vuestic-icon-tables"></span>
           <span>{{ $t('menu.tables') }}</span>
+        </span>
+      </sidebar-link>
+      <sidebar-link
+        :to="{ name: 'google-maps' }">
+        <span slot="title">
+          <span
+            class="sidebar-menu-item-icon vuestic-icon vuestic-icon-maps"> </span>
+          <span>{{ $t('menu.statistics') }}</span>
         </span>
       </sidebar-link>
 
