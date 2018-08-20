@@ -80,7 +80,7 @@ export default new Router({
       children: [
         {
           name: 'dashboard',
-          path: 'dashboard',
+          path: 'dashBoard',
           component: lazyLoading('dashboard/Dashboard'),
           default: true,
         },
@@ -95,15 +95,14 @@ export default new Router({
           component: lazyLoading('statistics/charts/Charts'),
         },
         {
+          name: 'maps',
           path: 'maps',
-          component: EmptyParentComponent,
-          children: [
-            {
-              name: 'google-maps',
-              path: 'google-maps',
-              component: lazyLoading('maps/google-maps/GoogleMapsPage'),
-            }
-          ],
+          component: lazyLoading('maps/google-maps/GoogleMapsPage')
+        },
+        {
+          name: 'test',
+          path: 'test',
+          component: lazyLoading('test/Test'),
         },
         {
           path: 'pages',
