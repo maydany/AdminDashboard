@@ -37,7 +37,7 @@
         :to="{ name: 'google-maps' }">
         <span slot="title">
           <span
-            class="sidebar-menu-item-icon vuestic-icon vuestic-icon-maps"> </span>
+            class="sidebar-menu-item-icon vuestic-icon vuestic-icon-files"> </span>
           <span>{{ $t('menu.test') }}</span>
         </span>
       </sidebar-link>
