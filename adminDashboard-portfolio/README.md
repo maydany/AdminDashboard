@@ -25,11 +25,11 @@ CSS(Bootstrap4), javascript(Vue.js2, I18n), Firebase를
 
 $ npm install
 
-# serve with hot reload at localhost:8080.
+#### serve with hot reload at localhost:8080.
 $ npm run dev
 
-# build for production with minification
+#### build for production with minification
 $ npm run build
 
-## License
+#### License
 [MIT](https://github.com/epicmaxco/vuestic-admin/blob/master/LICENSE) license.
