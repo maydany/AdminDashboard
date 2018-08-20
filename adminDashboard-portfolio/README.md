@@ -1,40 +1,28 @@
-# Vuestic Admin Dashboard
+### **Admin-Dashboard(vuestic)**  
 
-Responsive admin dashboard template built with [Vue.js](https://vuejs.org) and [Bootstrap 4](https://v4-alpha.getbootstrap.com). Developed by [Epicmax](https://epicmax.co). Designed by [Vasili Savitski](https://xxsavitski.myportfolio.com/)
+<br>
 
-Subscribe to our [newsletter](https://epicmax.co/newsletter) to get Vuestic updates, our team's stories and Vue.js materials hand-picked by Epicmax.
 
-<p align="center">
-  <a href="https://vuestic.epicmax.co" target="_blank">
-    <img src="https://i.imgur.com/pMuJVVc.png" align="center" width="888px"/>
-  </a>
-</p>
+![enter image description here](https://lh3.googleusercontent.com/PD2Il1-j5awULqg0RAMBe59YZDZdfzKSFHYEW0970jWwCbf_d3kQgDPhH5Nu967LX20fLUSYZF31=s600 "dashboard.JPG")
+<br>
 
-## Demo
-Check it out [live](https://vuestic.epicmax.co)!
+**BUILT WITH**  
+CSS(Bootstrap4), javascript(Vue.js2, I18n), Firebase를
+사용해 개발하였습니다.  
 
-## Prerequisites:
 
-- [Node.js](https://nodejs.org/en/) (at least 4.x, 8.x recommended)
-- npm version 3+ and [Git](https://git-scm.com/).
-- [vuestic-installer](https://github.com/epicmaxco/vuestic-installer) `npm install vuestic-installer -g`.
+**CONCEPT**  
+기업 내부에서 관리용 대시보드로 사용할 수 있는 반응형 웹페이지입니다.  
+판매현황, 실적관리, 비용분석 섹션이 있으며 외국인 근로자를 위해 I18n을  
+통한 번역을 지원합니다.
 
-## Browser Support
-* Latest Chrome, Firefox, Safari, Edge, IE11+
+**DEMO**  
+ [AdminDashboard 바로가기](https://admindashboard-portfolio.firebaseapp.com/#/auth/login)  
+(접속 후 게스트로 이용하기를 클릭해 접속해주시면 감사하겠습니다.  
+번역기능은 상단에 국기를 클릭해주시면 됩니다.)
 
 ## Installation
 
-``` bash
-# create new project via vuestic-installer command.
-$ vuestic myproject
-
-or
-
-# clone the repo
-$ git clone https://github.com/epicmaxco/vuestic-admin.git myproject
-
-# go into app's directory and install dependencies:
-$ cd myproject
 $ npm install
 
 # serve with hot reload at localhost:8080.
@@ -42,46 +30,6 @@ $ npm run dev
 
 # build for production with minification
 $ npm run build
-
-# build for production and view the bundle analyzer report.
-$ npm run build --report
-```
-
-## Documentation
-
-Got stuck? Check out our [documentation](https://github.com/epicmaxco/vuestic-admin/wiki) 🤓
-
-## Features
-* Vue.js
-* Bootstrap 4
-* Webpack
-* Responsive layout
-* Charts (Chart.js)
-* Maps (Google, Leaflet, amMap)
-* Progress bars
-* Material forms with beautiful validation
-* 4 Form wizard types
-* Static tables and datatables
-* Login/signup pages templates
-* Medium editor
-* Toasts, tooltips, popovers,
-* i18n
-* and many more!
-
-## Contributing
-Thanks for all your wonderful PRs, issues and ideas!
-
-[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/0)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/0)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/1)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/1)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/2)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/2)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/3)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/3)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/4)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/4)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/5)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/5)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/6)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/6)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/7)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/7)
-
-## How can I support developers?
-- Star our GitHub repo :star:
-- Create pull requests, submit bugs, suggest new features or documentation updates :wrench:
-- Follow us on [Twitter](https://twitter.com/epicmaxco) :feet:
-- Like our page on [Facebook](https://www.facebook.com/epicmaxco) :thumbsup:
-- Subscribe to our [newsletter](https://epicmax.co/newsletter) :postbox:
-
-## Can I hire you guys?
-Yes!  Visit [our homepage](https://epicmax.co/) or simply leave us a message to [hello@epicmax.co](mailto:hello@epicmax.co). We will be happy to work with you!
 
 ## License
 [MIT](https://github.com/epicmaxco/vuestic-admin/blob/master/LICENSE) license.
