@@ -10,7 +10,7 @@
         </span>
       </sidebar-link>
         <sidebar-link
-          :to="{ name: 'charts' }">
+          :to="{ name: 'salesStatus' }">
         <span slot="title">
           <span
             class="sidebar-menu-item-icon vuestic-icon vuestic-icon-statistics"></span>
@@ -18,7 +18,7 @@
         </span>
         </sidebar-link>
       <sidebar-link
-        :to="{ name: 'tables' }">
+        :to="{ name: 'pm' }">
         <span slot="title">
           <span
             class="sidebar-menu-item-icon vuestic-icon vuestic-icon-tables"></span>
