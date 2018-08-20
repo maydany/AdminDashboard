@@ -30,7 +30,7 @@
     "horizontalBarChart": "마케팅 대비 월매출",
     "verticalBarChart": "지역별 월매출",
     "lineChart": "Gráfico de Linha",
-    "pieChart": "루미나 시장 점유율",
+    "pieChart": "루미니 시장 점유율",
     "donutChart": "마케팅비 사용비율",
     "bubbleChart": "Gráfico Bolhas"
   },
@@ -165,7 +165,7 @@
     "buttons": "Botões",
     "charts": "Gráficos",
     "colorPickers": "Colhedores de Cor",
-    "dashboard": "대쉬보드",
+    "dashboard": "대시보드",
     "extra": "Extra",
     "formElements": "Elementos de Formulários",
     "forms": "매출현황",
