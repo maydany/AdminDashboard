@@ -31,7 +31,6 @@
 </template>
 
 <script>
-  import LineChartData from 'data/charts/LineChartData'
   import PieChartData from 'data/charts/PieChartData'
   import DonutChartData from 'data/charts/DonutChartData'
   import VerticalBarChartData from 'data/charts/VerticalBarChartData'
@@ -46,7 +45,6 @@
 
     data: function () {
       return {
-        lineChartData: LineChartData,
         pieChartData: PieChartData,
         donutChartData: DonutChartData,
         verticalBarChartData: VerticalBarChartData,
