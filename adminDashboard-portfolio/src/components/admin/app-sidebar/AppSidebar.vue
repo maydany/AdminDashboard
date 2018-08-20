@@ -14,7 +14,7 @@
         <span slot="title">
           <span
             class="sidebar-menu-item-icon vuestic-icon vuestic-icon-statistics"></span>
-          <span>{{ $t('menu.forms') }}</span>
+          <span>{{ $t('menu.salesStatus') }}</span>
         </span>
         </sidebar-link>
       <sidebar-link
@@ -30,7 +30,15 @@
         <span slot="title">
           <span
             class="sidebar-menu-item-icon vuestic-icon vuestic-icon-maps"> </span>
-          <span>{{ $t('menu.statistics') }}</span>
+          <span>{{ $t('menu.maps') }}</span>
+        </span>
+      </sidebar-link>
+      <sidebar-link
+        :to="{ name: 'google-maps' }">
+        <span slot="title">
+          <span
+            class="sidebar-menu-item-icon vuestic-icon vuestic-icon-maps"> </span>
+          <span>{{ $t('menu.test') }}</span>
         </span>
       </sidebar-link>
 

@@ -20,9 +20,10 @@
   },
   "menu": {
     "dashboard": "대시보드",
-    "forms": "매출현황",
-    "statistics": "매장위치",
-    "tables": "실적관리"
+    "salesStatus": "매출현황",
+    "maps": "매장위치",
+    "tables": "실적관리",
+    "test":"테스트"
   },
   "messages": {
     "all": "모든 메세지 보러가기",

@@ -37,9 +37,10 @@
   "menu": {
     "auth": "Auth",
     "dashboard": "Dashboard",
-    "forms": "Sales Status",
-    "statistics": "Store Locations",
-    "tables": "PM"
+    "salesStatus": "Sales Status",
+    "maps": "Store Locations",
+    "tables": "PM",
+    "test":"Test"
   },
   "messages": {
     "all": "See all messages",

@@ -32,7 +32,6 @@
 
 <script>
   import LineChartData from 'data/charts/LineChartData'
-  import BubbleChartData from 'data/charts/BubbleChartData'
   import PieChartData from 'data/charts/PieChartData'
   import DonutChartData from 'data/charts/DonutChartData'
   import VerticalBarChartData from 'data/charts/VerticalBarChartData'
@@ -47,7 +46,6 @@
 
     data: function () {
       return {
-        bubbleChartData: BubbleChartData,
         lineChartData: LineChartData,
         pieChartData: PieChartData,
         donutChartData: DonutChartData,
