@@ -1,0 +1,75 @@
+{
+  "auth": {
+    "agree": "I agree to",
+    "alreadyJoined": "Already joined?",
+    "createAccount": "Create account",
+    "createNewAccount": "Create account",
+    "email": "Email",
+    "login": "Login",
+    "password": "Password",
+    "signUp": "Sign Up",
+    "termsOfUse": "Terms of Use.",
+    "welcome": "Welcome!"
+  },
+  "charts": {
+    "horizontalBarChart": "마케팅 대비 월매출",
+    "verticalBarChart": "지역별 월매출",
+    "lineChart": "Line Chart",
+    "pieChart": "루미니 시장 점유율",
+    "donutChart": "마케팅비 사용비율",
+    "bubbleChart": "Bubble Chart"
+  },
+  "dashboard": {
+    "dataVisualization": "지역별 판매수량",
+    "success": "SUCCESS",
+    "elements": "Sales quantity",
+    "setupProfile": "회의 일정 만들기",
+    "teamMembers": "LUMINI Experient",
+    "usersAndMembers": "Users & Members",
+    "versions": "Return Quantity",
+    "return":"Return rate",
+    "social":"LuLuLab News"
+  },
+  "language": {
+    "english": "English",
+    "korean": "Korean"
+  },
+  "menu": {
+    "auth": "Auth",
+    "dashboard": "Dashboard",
+    "forms": "Sales Status",
+    "statistics": "Store Locations",
+    "tables": "PM"
+  },
+  "messages": {
+    "all": "See all messages",
+    "new": "New messages from {name}"
+  },
+  "navbar": {
+    "messageUs": "Sung-hoon Lim's Admin-Dashboard(Portfolio)"
+  },
+  "notifications": {
+    "all": "See all notifications",
+    "sentMessage": "{name} sent you a message",
+    "uploadedZip": "{name} uploaded a new Zip file with {type}",
+    "startedTopic": "{name} started a new topic"
+  },
+  "tables": {
+    "styled": "실적 관리",
+    "headings": {
+      "city": "지역",
+      "email": "Email",
+      "name": "이름",
+      "score": "실적",
+      "status": "상태"
+    },
+    "dataTable": {
+      "noDataAvailable": "No Data Available"
+    }
+  },
+  "user": {
+    "language": "Change Language",
+    "logout": "Logout",
+    "profile": "My Profile"
+  }
+}
