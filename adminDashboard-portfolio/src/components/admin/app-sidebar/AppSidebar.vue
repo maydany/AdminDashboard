@@ -26,7 +26,7 @@
         </span>
       </sidebar-link>
       <sidebar-link
-        :to="{ name: 'google-maps' }">
+        :to="{ name: 'maps' }">
         <span slot="title">
           <span
             class="sidebar-menu-item-icon vuestic-icon vuestic-icon-maps"> </span>
@@ -34,7 +34,7 @@
         </span>
       </sidebar-link>
       <sidebar-link
-        :to="{ name: 'google-maps' }">
+        :to="{ name: 'test' }">
         <span slot="title">
           <span
             class="sidebar-menu-item-icon vuestic-icon vuestic-icon-files"> </span>
