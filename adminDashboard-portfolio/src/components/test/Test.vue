@@ -13,7 +13,7 @@
 
 <div class="row">
    <div class="col-md-6 offset-md-3 text-center">
-     <select class="form-control mb-4" v-model="selectedValue" >
+     <select class="form-control mb-3" v-model="selectedValue" >
        <option v-for="product in products"  :value="product.name">{{product.name}}</option>
      </select>
 
