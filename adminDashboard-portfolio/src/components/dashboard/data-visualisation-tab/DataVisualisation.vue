@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-6">
         <div class="chart-container">
-          <vuestic-chart v-bind:data="donutChartData" type="donut"></vuestic-chart>
+          <vuestic-chart :data="donutChartData" type="donut"></vuestic-chart>
         </div>
       </div>
       <div class="col-md-6">
@@ -22,17 +22,11 @@
 </template>
 
 <script>
-  import Vue from 'vue'
-  import BadgeColumn from 'components/tables/BadgeColumn.vue'
   import TableData from './TableData'
   import DonutChartData from './DonutChartData'
   import FieldsDef from './fields-definition'
-
-  Vue.component('badge-column', BadgeColumn)
-
   export default {
     name: 'data-visualisation-tab',
-
     data () {
       return {
         donutChartData: DonutChartData,

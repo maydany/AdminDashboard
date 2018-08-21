@@ -17,7 +17,7 @@
        <option v-for="product in products"  :value="product.name">{{product.name}}</option>
      </select>
 
-   <div><strong><span>{{ this.selectedValue }} 판매량 :</span></strong>
+   <div class="mb-4"><strong><span>{{ this.selectedValue }} 판매량 :</span></strong>
      <span v-if="selectedValue === '루미니'">
        <input type="number"  v-model="chartData.datasets[0].data[0]" @keyup.enter="setQuantity(chartData.datasets[0].data[0])">
        <button @click="setQuantity(chartData.datasets[0].data[0])">변경</button>
@@ -94,14 +94,12 @@
         }
       }
     }
-
-
 </script>
 
 <style lang="scss">
   .widget.chart-widget {
     .widget-body {
-      height: 470px;
+      height: 500px;
     }
   }
 

@@ -6,7 +6,7 @@
       <vuestic-pre-loader v-show="isLoading" class="pre-loader"></vuestic-pre-loader>
       <router-view></router-view>
     </main>
-    <span slot="footer">©2018. Made by&nbsp;Lim Sung-Hoon</span>
+    <div slot="footer">©2018. Made by&nbsp;Lim Sung-Hoon</div>
   </vuestic-layout>
 </template>
 

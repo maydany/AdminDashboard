@@ -22,7 +22,7 @@
            회원 가입
         </button>
       </div>
-      <div class="mt-4 ml-10">  <router-link class='link' :to="{name: 'dashboard'}">게스트로 접속하기</router-link></div>
+      <div class="mt-4 ml-10">  <router-link class='link' :to="{name: 'dashboard'}">게스트로 접속</router-link></div>
 
     </form>
   </div>
