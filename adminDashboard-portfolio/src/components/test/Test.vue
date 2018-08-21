@@ -101,7 +101,7 @@
 <style lang="scss">
   .widget.chart-widget {
     .widget-body {
-      height: 550px;
+      height: 470px;
     }
   }
 
