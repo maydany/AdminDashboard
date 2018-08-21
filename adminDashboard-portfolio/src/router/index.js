@@ -103,17 +103,6 @@ export default new Router({
           name: 'test',
           path: 'test',
           component: lazyLoading('test/Test'),
-        },
-        {
-          path: 'pages',
-          component: EmptyParentComponent,
-          children: [
-            {
-              name: '404-pages',
-              path: '404-pages',
-              component: lazyLoading('pages/404-pages/404PagesPage')
-            }
-          ]
         }
       ],
     },
