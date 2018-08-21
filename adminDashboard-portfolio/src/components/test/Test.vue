@@ -19,15 +19,18 @@
 
    <div><strong><span>{{ this.selectedValue }} 판매량 :</span></strong>
      <span v-if="selectedValue === '루미니'">
-       <input type="number"  v-model="chartData.datasets[0].data[0]" @keyup.enter="fillData3($event)">
+       <input type="number"  v-model="chartData.datasets[0].data[0]" @keyup.enter="setQuantity(chartData.datasets[0].data[0])">
+       <button @click="setQuantity(chartData.datasets[0].data[0])">변경</button>
      </span>
      <span v-else-if="selectedValue === 'A제품'">
-       <input type="number"  v-model="chartData.datasets[0].data[1]" @keyup.enter="fillData3($event)">
+       <input type="number"  v-model="chartData.datasets[0].data[1]" @keyup.enter="setQuantity(chartData.datasets[0].data[1])">
+       <button @click="setQuantity(chartData.datasets[0].data[1])">변경</button>
      </span>
      <span v-else="selectedValue === 'B제품'">
-       <input type="number"  v-model="chartData.datasets[0].data[2]" @keyup.enter="fillData3($event)">
+       <input type="number"  v-model="chartData.datasets[0].data[2]" @keyup.enter="setQuantity(chartData.datasets[0].data[2])">
+       <button @click="setQuantity(chartData.datasets[0].data[2])">변경</button>
      </span>
-     <button @click="">변경</button></div>
+   </div>
    </div>
   </div>
 </div>
@@ -55,20 +58,43 @@
           selectedValue: '루미니'
           }
         },
+        mounted() {
+          this.filldata()
+        },
           methods: {
-            fillData3 (e) {
-
-              this.chartData = {
-                  labels: ['루마니', '우리', 'B사'],
+            setQuantity (sq) {
+              if (this.selectedValue === '루미니' ) {
+              return this.chartData = {
+                  labels: ['루미니', 'A제품', 'B제품'],
                   datasets: [{
                     label: 'EA',
                     backgroundColor: [palette.primary, palette.warning, palette.danger],
-                    data: [e.target.value, 2478, 734]
+                    data: [sq, this.chartData.datasets[0].data[1], this.chartData.datasets[0].data[2]]
                   }]
                 }
+            } else if  (this.selectedValue === 'A제품' ) {
+            return this.chartData = {
+                labels: ['루미니', 'A제품', 'B제품'],
+                datasets: [{
+                  label: 'EA',
+                  backgroundColor: [palette.primary, palette.warning, palette.danger],
+                  data: [this.chartData.datasets[0].data[0], sq, this.chartData.datasets[0].data[2]]
+                }]
+              }
+          } else {
+            this.chartData = {
+                labels: ['루미니', 'A제품', 'B제품'],
+                datasets: [{
+                  label: 'EA',
+                  backgroundColor: [palette.primary, palette.warning, palette.danger],
+                  data: [this.chartData.datasets[0].data[0], this.chartData.datasets[0].data[1], sq]
+                }]
+              }
+          }
+        }
       }
     }
-  }
+
 
 </script>
 
