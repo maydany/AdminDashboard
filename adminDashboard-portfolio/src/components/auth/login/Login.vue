@@ -1,16 +1,16 @@
 <template>
   <div class="login">
     <h2>임성훈의 포트폴리오에 오신걸 환영합니다!</h2>
-    <form method="post" action="/auth/login" name="login">
+    <form @submit.prevent="onSignin" method="post" action="/auth/login" name="login">
       <div class="form-group">
         <div class="input-group">
-          <input type="text" id="email" required="required"/>
+          <input type="text" v-model="email" id="email" required="required"/>
           <label class="control-label" for="email">이메일</label><i class="bar"></i>
         </div>
       </div>
       <div class="form-group">
         <div class="input-group">
-          <input type="password" id="password" required="required"/>
+          <input type="password" v-model="password" id="password" required="required"/>
           <label class="control-label" for="password">비밀번호</label><i class="bar"></i>
         </div>
       </div>
@@ -28,7 +28,18 @@
 
 <script>
   export default {
-    name: 'login'
+    name: 'login',
+    data () {
+      return {
+        email: '',
+        password: ''
+      }
+    },
+    methods: {
+      onSignin () {
+        this.$store.dispatch('signUserIn', {email: this.email, password: this.password})
+      }
+    }
   }
 </script>
 

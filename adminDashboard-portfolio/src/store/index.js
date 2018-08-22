@@ -19,11 +19,6 @@ const store = new Vuex.Store({
       id: ''
     }
   },
-  mutations: {
-    setUser (state, payload) {
-      state.user = payload
-    }
-  },
   actions: {
     signUserUp ({comit}, payload) {
       firebase.auth().createUserWithEmailAndPassword(payload.email, payload.password)
@@ -36,6 +31,19 @@ const store = new Vuex.Store({
           alert('이메일 : ' +payload.email+'\n'+ '비밀번호 : '+payload.password+'로 가입되었습니다.'),
         ).catch(error => {
           console.log(error)
+        })
+    },
+    signUserIn ({commit}, payload) {
+      firebase.auth().signInWithEmailAndPassword(payload.email, payload.password)
+        .then(
+          user => {
+            const newUser = {
+              id: user.uid
+            }
+          }
+        ).catch(error => {
+          console.log(error),
+          alert('아이디와 비밀번호를 다시 확인해주세요.')
         })
     }
   }
