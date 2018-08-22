@@ -19,6 +19,11 @@ const store = new Vuex.Store({
       id: ''
     }
   },
+  mutations: {
+    setUser (state, payload) {
+      state.user = payload
+    }
+  },
   actions: {
     signUserUp ({comit}, payload) {
       firebase.auth().createUserWithEmailAndPassword(payload.email, payload.password)
@@ -40,6 +45,7 @@ const store = new Vuex.Store({
             const newUser = {
               id: user.uid
             }
+              commit('setUser', newUser)
           }
         ).catch(error => {
           console.log(error),
