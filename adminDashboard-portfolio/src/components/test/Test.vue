@@ -58,9 +58,6 @@
           selectedValue: '루미니'
           }
         },
-        mounted() {
-          this.filldata()
-        },
           methods: {
             setQuantity (sq) {
               if (this.selectedValue === '루미니' ) {
