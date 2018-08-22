@@ -37,7 +37,7 @@
     name: 'signup',
     data () {
       return {
-        checkboxOneModel: true,
+        checkboxOneModel: false,
         email: '',
         password: ''
       }
