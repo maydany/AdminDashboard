@@ -14,7 +14,7 @@ CSS(Bootstrap4), javascript(Vue.js2, I18n), Firebase를
 **CONCEPT**  
 기업 내부에서 관리용 대시보드로 사용할 수 있는 반응형 웹페이지입니다.  
 판매현황, 실적관리, 비용분석 섹션이 있으며 외국인 근로자를 위해 I18n을  
-통한 번역을 지원합니다.
+통한 번역을 지원합니다.  (파이어베이스 기반으로 로그인 기능이 구현되어 있습니다.)  
 
 **DEMO**  
  [AdminDashboard 바로가기](https://admindashboard-portfolio.firebaseapp.com/#/auth/login)  
