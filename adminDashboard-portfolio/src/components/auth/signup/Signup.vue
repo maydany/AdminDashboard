@@ -4,13 +4,13 @@
     <form method="post" @submit.prevent="onSignUp" action="/auth/signup" name="signup">
       <div class="form-group">
         <div class="input-group">
-          <input type="text" id="email" v-model="email" required="required"/>
+          <input type="email" id="email" v-model="email" required="required"/>
           <label class="control-label" for="email">{{'auth.email' | translate}}</label><i class="bar"></i>
         </div>
       </div>
       <div class="form-group">
         <div class="input-group">
-          <input type="password" id="password" v-model="password" required="required"/>
+          <input pattern=".{6,}" title="비밀번호는 6자 이상입니다." type="password" id="password" v-model="password" required="required"/>
           <label class="control-label" for="password">{{'auth.password' | translate}}</label><i class="bar"></i>
         </div>
       </div>
