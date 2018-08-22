@@ -14,7 +14,7 @@
 <div class="row">
    <div class="col-md-6 offset-md-3 text-center">
      <select class="form-control mb-3" v-model="selectedValue" >
-       <option v-for="product in products"  :value="product.name">{{product.name}}</option>
+       <option v-for="product in this.chartData.labels"  :value="product">{{product}}</option>
      </select>
 
    <div class="mb-4"><strong><span>{{ this.selectedValue }} 판매량 :</span></strong>
@@ -45,16 +45,13 @@
       data () {
         return {
           chartData: {
-            labels: ['루미니', 'A사', 'B사'],
+            labels: ['루미니', 'A제품', 'B제품'],
             datasets: [{
               label: 'EA',
               backgroundColor: [palette.primary, palette.warning, palette.danger],
               data: [5267, 2478, 734]
             }]
           },
-          products: [{name:'루미니'},
-                     {name:'A제품'},
-                     {name:'B제품'},],
           selectedValue: '루미니'
           }
         },
