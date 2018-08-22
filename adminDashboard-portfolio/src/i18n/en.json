@@ -1,13 +1,12 @@
 {
   "auth": {
-    "agree": "I agree to",
-    "alreadyJoined": "Already joined?",
-    "createAccount": "Create account",
-    "createNewAccount": "Create account",
+    "alreadyJoined": "게스트로 접속",
+    "createAccount": "회원 가입",
+    "createNewAccount": "회원 가입",
     "email": "Email",
     "login": "Login",
     "password": "Password",
-    "signUp": "Sign Up",
+    "signUp": "회원 가입",
     "termsOfUse": "Terms of Use.",
     "welcome": "Welcome!"
   },

@@ -14,15 +14,13 @@
           <label class="control-label" for="password">비밀번호</label><i class="bar"></i>
         </div>
       </div>
-      <div class="d-flex flex-column flex-lg-row align-items-center justify-content-between down-container">
-        <button class="btn btn-primary px-4 mt-3" type="submit">
+      <div class="d-flex flex-column flex-lg-row align-items-center down-container">
+        <button class="btn btn-primary mt-3" type="submit">
           로그인
         </button>
-        <button class="btn btn-primary mt-3" type="submit">
-           회원 가입
-        </button>
+        <div class="mt-3 mx-auto"> <router-link class='link' :to="{name: 'signup'}">회원 가입하기</router-link></div>
       </div>
-      <div class="mt-4 ml-10">  <router-link class='link' :to="{name: 'dashboard'}">게스트로 접속</router-link></div>
+      <div class="mt-4 ml-10">  <router-link class='link' :to="{name: 'dashboard'}"><strong>게스트로 접속</strong></router-link></div>
 
     </form>
   </div>

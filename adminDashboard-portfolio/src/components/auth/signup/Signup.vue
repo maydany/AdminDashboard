@@ -1,6 +1,6 @@
 <template>
   <div class="signup">
-    <h2>{{'auth.createNewAccount' | translate}}</h2>
+    <h2>회원 가입</h2>
     <form method="post" action="/auth/signup" name="signup">
       <div class="form-group">
         <div class="input-group">
@@ -17,15 +17,16 @@
       <vuestic-checkbox
         :id="'checkbox1'"
         v-model="checkboxOneModel">
-        <template slot="label">{{'auth.agree' | translate}}
-          <router-link to="">{{'auth.termsOfUse' | translate}}</router-link>
+        <template slot="label">
+          <router-link to=""></router-link>
         </template>
+        입력하신 정보는 Firebase DB에 저장됩니다.
       </vuestic-checkbox>
       <div class="d-flex flex-column flex-lg-row align-items-center justify-content-between down-container">
         <button class="btn btn-primary" type="submit">
           {{'auth.signUp' | translate}}
         </button>
-        <router-link class='link' :to="{name: 'login'}">{{'auth.alreadyJoined' | translate}}</router-link>
+        <router-link class='link' :to="{name: 'dashboard'}"><strong>게스트로 접속</strong></router-link>
       </div>
     </form>
   </div>
